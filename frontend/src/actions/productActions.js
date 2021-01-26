@@ -4,7 +4,7 @@ import {
   PRODUCT_LIST_REQUEST,
   PRODUCT_LIST_SUCCESS,
   PRODUCT_LIST_FAIL,
-} from '../contstants/productConstants'
+} from '../constants/productConstants'
 
 export const listProducts = () => async (dispatch) => {
   try {
