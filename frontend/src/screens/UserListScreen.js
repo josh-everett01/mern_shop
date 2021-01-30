@@ -52,7 +52,7 @@ const UserListScreen = ({ history }) => {
           </thead>
           <tbody>
             {users.map((user) => (
-              <tr key={user.id}>
+              <tr key={user._id}>
                 <td>{user.id}</td>
                 <td>{user.name}</td>
                 <td>
