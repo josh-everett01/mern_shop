@@ -52,6 +52,15 @@ h2 {
   margin: 0 auto;
 }
 
-.price {
- 
-}
+@media (max-width: 767.98px) { 
+  .carousel-caption {
+    margin-bottom: 30px;
+  
+  }
+  .carousel img {
+    height: 250px;
+    padding: 30px;
+    margin-top: 120px;
+    border-radius: 50%;
+  }
+ }
